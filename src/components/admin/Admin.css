@@ -1,0 +1,12 @@
+.button-container {
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.btnLink {
+  font-size: 20px;
+  color: rgb(74, 75, 76);
+  background-color: rgb(168, 166, 169);
+  text-decoration: none;
+}

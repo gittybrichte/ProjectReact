@@ -1,0 +1,39 @@
+.service {
+    border: 3px solid rgba(99, 102, 99, 0.906);
+    border-radius: 20%;
+    height: 18rem;
+    width: 15rem;
+    margin: 1vw;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    background-color: rgb(190, 187, 192);
+}
+
+.service:hover {
+    background-color: rgb(213, 208, 215);
+}
+
+#services {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.addService {
+    position: absolute;
+    margin-left: 30%;
+    margin-top: 7%;
+    padding: 50px;
+    background-color: white;
+}
+
+#send {
+    height: 50px;
+    position: fixed;
+    top: 100px;
+    left: 42vw;
+    background-color: rgb(113, 111, 111);
+    font-size: 20px;
+    z-index: 3;
+}

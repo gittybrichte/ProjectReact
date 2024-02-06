@@ -1,0 +1,75 @@
+ .form-item {
+   margin-bottom: 10px;
+ }
+
+ .btnDialog {
+   height: 30px;
+   background-color: rgb(113, 111, 111) !important;
+   font-size: 15px !important;
+   color: #ffffff !important;
+ }
+
+ .dt {
+   text-align: center;
+   padding-bottom: 0% !important;
+ }
+
+ .dc {
+   margin-top: 6% !important;
+ }
+
+ .d {
+   min-width: 100% !important;
+   margin: 0% !important;
+ }
+
+ .css-1t1j96h-MuiPaper-root-MuiDialog-paper {
+   width: 30%;
+   background-color: rgb(37, 113, 88);
+ }
+
+ aside li {
+   border: 2px solid rgb(81, 78, 78);
+   border-radius: 20%;
+   height: 25vw;
+   width: 20vw;
+   margin: 0.5em;
+   list-style: none;
+
+ }
+
+ aside li:hover a {
+   opacity: 1;
+ }
+
+ aside ul {
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+ }
+
+ @media screen and (min-width:600px) and (max-width:800px) {
+
+   aside ul {
+     grid-template-columns: repeat(2, 1fr);
+     row-gap: 3rem;
+   }
+
+   aside li {
+     height: 300px;
+     width: 200px;
+   }
+ }
+
+
+ @media screen and (max-width:600px) {
+   aside ul {
+     grid-template-columns: repeat(1, 1fr);
+     row-gap: 2rem;
+   }
+
+   aside li {
+     height: 400px;
+     width: 270px;
+     border-width: 4px;
+   }
+ }
