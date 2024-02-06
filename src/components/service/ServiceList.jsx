@@ -16,10 +16,7 @@ const ServiceList = (observer(() => {
     const [isAdd, setIsAdd] = useState(false);
 
     useEffect(() => {
-        if (Services.services.length === 4) {
-            Services.services.map(s => addService2(s));
             getServices();
-        }
     }, []);
 
     const handleAddService = () => {

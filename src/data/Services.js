@@ -3,29 +3,6 @@ class Services {
   isAdmin = false;
   services
     = [
-      {
-
-        price: "200",
-        name: "ניו בורן",
-        description: "תמונות יפהפיות בעריכה אמנותית "
-
-      },
-      {
-        price: "1600",
-        name: "חלאקה",
-        description: "20 תמונות מעוצבות באלבום"
-      },
-      {
-        price: "1200",
-        name: "משפחה",
-        description: "10 תמונות בעריכה אמנותית בפוטושופ"
-      },
-      {
-        price: "800",
-        name: "סמאשקייק",
-        description: "20 תמונות מעוצבות בקולאז'"
-      },
-
     ]
   meetings = [];
   constructor() {
@@ -41,7 +18,7 @@ class Services {
     })
   }
   setServices = (services) => {
-    this.services = [...services];
+    this.services = [...defser, ...services];
   }
   addService = (service) => {
     this.services = [...this.services, service];
@@ -58,6 +35,31 @@ class Services {
   }
 }
 export default new Services();
+
+const defser = [
+  {
+
+    price: "200",
+    name: "ניו בורן",
+    description: "תמונות יפהפיות בעריכה אמנותית "
+
+  },
+  {
+    price: "1600",
+    name: "חלאקה",
+    description: "20 תמונות מעוצבות באלבום"
+  },
+  {
+    price: "1200",
+    name: "משפחה",
+    description: "10 תמונות בעריכה אמנותית בפוטושופ"
+  },
+  {
+    price: "800",
+    name: "סמאשקייק",
+    description: "20 תמונות מעוצבות בקולאז'"
+  },
+]
 
 
 
